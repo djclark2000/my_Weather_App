@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=2000&q=60');
+    font-size: 120%;
+}
+
+
+
+.card-container {
+    background: #000000d0;
+    /* background: #eaeaea; */
+    color: rgb(213, 212, 212);
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 425px;
+    margin: .5em;
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: .5em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.5em 2em;
+    border-radius: 30px;
+    background: #b3b3b32b;
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    font-size: 120%; 
+    width: calc(100% - 95px);
+}
+
+button:hover {
+    background: #b3b3b32b;
+}
+
+/* .temp {
+    margin: 0;
+} */
