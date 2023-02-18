@@ -50,7 +50,8 @@ let weather = {
 
 //adding the event listener to the button:
 const searchButton = document.querySelector("#searchBtn");
-searchButton.addEventListener("click", function () {
+searchButton.addEventListener("click", (e) => {
+    e.preventDefault();
     console.log(weather);
     weather.search();
 });
